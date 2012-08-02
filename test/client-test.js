@@ -47,7 +47,7 @@ c.getAccountInfo(t('getAccountInfo',
         date_created: /.*/,
         date_updated: /.*/,
         friendly_name: /.*/,
-        status: /Active/,
+        status: /active/,
         auth_token: /.*/,
         uri: /.*/
     }
@@ -59,7 +59,7 @@ c.updateAccountInfo({FriendlyName: 'sjwalter-nodejs'}, t('updateAccountInfo',
         date_created: /.*/,
         date_updated: /.*/,
         friendly_name: /sjwalter-nodejs/,
-        status: /Active/,
+        status: /active/,
         auth_token: /.*/,
         uri: /.*/
     }
