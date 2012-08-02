@@ -14,7 +14,7 @@ function ok(msg) {
 
 function error(msg) {
     debug('Error!: ' + msg);
-    error += 1;
+    errors += 1;
 }
 
 function t(test, expected, postTest) {
